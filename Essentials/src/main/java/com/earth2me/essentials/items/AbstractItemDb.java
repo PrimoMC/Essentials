@@ -45,7 +45,7 @@ public abstract class AbstractItemDb implements IConf, net.ess3.api.IItemDb {
     private final Map<PluginKey, ItemResolver> resolverMap = new HashMap<>();
     protected boolean ready = false;
 
-    AbstractItemDb(final IEssentials ess) {
+    protected AbstractItemDb(final IEssentials ess) {
         this.ess = ess;
     }
 
